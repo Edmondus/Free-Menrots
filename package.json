@@ -1,0 +1,41 @@
+{
+    "name": "free-mentors",
+    "version": "1.0.0",
+    "description": "Free Mentors is a social initiative where accomplished professionals become role models to",
+    "main": "ple to provide free mentorship sessions.",
+    "scripts": {
+        "start": "babel-node server.js",
+        "server": "nodemon --exec babel-node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IRAKOZEAimeAubin/Free-Mentors.git"
+    },
+    "author": "IRAKOZE Aime Aubin",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/IRAKOZEAimeAubin/Free-Mentors/issues"
+    },
+    "homepage": "https://github.com/IRAKOZEAimeAubin/Free-Mentors#readme",
+    "dependencies": {
+        "@babel/polyfill": "^7.11.5",
+        "babel-watch": "^7.0.0",
+        "body-parser": "^1.19.0",
+        "colors": "^1.4.0",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.10.5",
+        "morgan": "^1.10.0",
+        "pg": "^8.3.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.11.6",
+        "@babel/core": "^7.11.6",
+        "@babel/node": "^7.10.5",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/register": "^7.11.5",
+        "concurrently": "^5.3.0",
+        "nodemon": "^2.0.4"
+    }
+}
